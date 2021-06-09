@@ -10,14 +10,18 @@ header {
    background-color: white;
 }
 body {
-   background-color: rgba(246,248,249,1);
+   background-color: rgb(246,248,249);
 }
 
-
+.lightblue {
+   background-color:rgb(71,173,241);
+}
 
 /* Header */
 
-header
+header {
+   margin-bottom: 50px;
+}
 
 #logo{
    line-height: 400px;
@@ -34,3 +38,32 @@ header
 
 /* Fine Header */
 
+/* Main */
+
+.action, .secondo {
+   width: 80%;
+   margin: 3px auto;
+   background-color: white;
+   padding: 20px 50px;
+}
+
+main hr {
+   width: 120%;
+   
+}
+.action  div{
+   display: inline-block;
+   border-radius: 7px;
+   padding: 8px 12px;
+   margin: 2px;
+   border: 1px solid grey;
+}
+
+#addTask {
+   color: white;
+}
+
+#addSection {
+   color: rgb(197,203,208);
+
+}
