@@ -17,6 +17,21 @@ body {
    background-color:rgb(71,173,241);
 }
 
+.purple {
+   background-color:rgb(156,114,228)
+}
+
+.green {
+   background-color:rgb(100,192,169)
+}
+
+.orange {
+   background-color:rgb(242,158,51)
+}
+
+.magenta {
+   background-color:rgb(216,99,161)
+}
 /* Header */
 
 header {
@@ -72,3 +87,38 @@ header {
    color: rgb(197,203,208);
 
 }
+
+/* Tasks */
+
+.task {
+   margin: 20px 0px 20px 0px;
+   font-weight: bold;
+}
+
+.check, .cross {
+   display: inline-block;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+}
+
+.check {
+   border: 1px solid rgb(112,197,176);
+   color: rgb(112,197,176);;
+}
+
+.cross {
+   border: 1px solid rgb(239,117,110);
+   color: rgb(239,117,110);;
+}
+
+.tag {
+   color: white;
+   border-radius: 10px;
+   padding: 5px 10px;
+   font-size: 12px;
+}
+
+/* Fine tasks */
+/* Fine main */
