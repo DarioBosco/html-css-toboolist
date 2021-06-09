@@ -2,5 +2,35 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: Arial;
 }
+
+
+header {
+   background-color: rgb(255, 255, 255);
+}
+body {
+   background-color: rgba(246,248,249,1);
+}
+
+
+
+/* Header */
+
+header
+
+#logo{
+   line-height: 400px;
+   vertical-align: middle;
+   margin: 10px 20px;
+}
+
+#logo-text{
+   display: inline-block;
+   font-size: 42px;
+   font-weight: bold;
+   vertical-align: middle;
+}
+
+/* Fine Header */
 
