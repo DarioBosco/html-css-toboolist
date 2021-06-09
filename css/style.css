@@ -40,16 +40,21 @@ header {
 
 /* Main */
 
-.action, .secondo {
+.action, .list {
    width: 80%;
    margin: 3px auto;
    background-color: white;
    padding: 20px 50px;
 }
 
-main hr {
-   width: 120%;
-   
+.action {
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+}
+
+.list {
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
 }
 .action  div{
    display: inline-block;
