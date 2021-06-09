@@ -98,8 +98,9 @@ header {
 .check, .cross {
    display: inline-block;
    border-radius: 50%;
-   width: 25px;
-   height: 25px;
+   font-size:11px;
+   width: 18px;
+   height: 18px;
    text-align: center;
 }
 
@@ -114,9 +115,10 @@ header {
 }
 
 .tag {
+   display: inline-block;
    color: white;
    border-radius: 10px;
-   padding: 5px 10px;
+   padding: 5px 8px;
    font-size: 12px;
 }
 
